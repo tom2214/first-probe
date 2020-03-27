@@ -1,0 +1,175 @@
+body {
+	
+	color: green;
+}
+
+.color1 { 
+
+background-color: red;
+}
+
+.color2 { 
+
+background-color: yellow;
+}
+
+#size {
+	
+	width: 400
+}
+
+
+#size2 {
+	
+	 width: 300
+}
+
+.eee {
+	
+	color: red;
+}
+
+
+ul.funr {
+	list-style-image: url("../images/icon.png");
+}
+
+nav li {
+	
+	line-height: 160%;
+}
+
+nav a {
+	
+	text-decoration: none;
+	
+}
+
+nav a:hover {
+	
+	color: #0c0;
+}
+
+p i {
+	color: blue;
+}
+
+
+
+a:hove {
+	colo: yel;
+	text-decoration: underline;
+} 
+p {
+	text-indent: 50px;
+	font-style: italic;
+	margin: 0;
+}
+p {
+	font: italic;
+	margin: 0;
+}
+
+
+p.upper {
+	text-transform: uppercase;
+	}
+
+
+p.lower {
+	text-transform: lowercase;
+}
+
+.мм {
+	font-size: 111мм;
+}
+
+.см {
+	font-size: 1см;
+}
+
+.pt{
+	font-size: 18pt
+}
+
+.in{
+	font-size: 100n
+}
+
+
+.px {
+	font-size: 10px;
+}
+
+.em   {
+	font-size: 10em;
+}
+
+.percent   {
+	font-size: 150%
+}
+
+#title {
+	text-align: right;
+	color: yell;
+}
+
+input[type="text"]{
+	
+	
+}
+
+input[type="submit"]{
+	
+	width: 700px; height: 300;
+	
+	font-size: 140%; color: yellow;
+}
+
+
+ul li:last-child {
+	color:gra
+}
+
+ul li:nth-child(4)
+ {color:
+
+ yello;}
+
+table {
+	border: 2px solid #000;
+	width: 35%;
+	text-align: center;
+}
+
+td  {
+	border: 2px solid #000;
+	
+}
+
+td:nth-child(2n) {
+	color: red;
+}
+
+td:nth-child(2n+1){
+	color: green;
+}
+
+#style {
+	font-style: italic;
+	color: blue;
+}
+#big {
+	font-size: 150%;
+	color: #0cc
+}
+        
+
+#color { 
+     text-decoration: overline;
+     color: red;
+}
+
+li>a:hover { 
+      font-size: 300%;
+}

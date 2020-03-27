@@ -1,0 +1,298 @@
+
+b ody {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+ul {
+	
+	font-size: 200%;
+	list-style: none;
+}
+
+li a span {
+	
+	display: inline-block;
+	background: url("../images/sprite1.jpg");
+	height: 50px;
+	width: 50px;
+	
+	
+}
+
+
+.clear { 
+    clear: both;
+}
+
+div {
+	
+	border: 2px solid black;
+    background: url("../images/sprite1.jpg");
+	width: 57px;
+	height: 57px;
+}
+
+.rt {
+       width: 300px;
+	   height: 300px;
+	   background-position: -9px 55px;
+	   }
+
+
+li a {
+	
+	
+	float: left;
+	text-decoration: none;
+	padding: 5px 10px;
+	
+}
+
+
+li:nth-child(1) a span {
+	
+	background-position: -9px 54px;
+	transition-duration: 2s;
+	
+}
+
+li:nth-child(1) a:hover span {
+	
+	background-position: -9px 109px;
+	
+}
+
+
+
+li:nth-child(2) a span {
+	
+	background-position: -71px 54px;
+	
+}
+li:nth-child(2) a:hover span {
+	
+	background-position: -71px 109px;
+}
+
+
+
+li:nth-child(3) a span {
+	
+	background-position: -133px 54px;
+	
+}
+li:nth-child(3) a:hover span {
+	
+	background-position: -133px 109px;
+
+}
+
+li:nth-child(4) a span {
+	
+	background-position: -196px 54px;
+	
+}
+
+li:nth-child(4) a:hover span {
+	
+	background-position: -196px 109px;
+}
+
+
+
+
+
+.r t {
+	background-color: black;
+	width: 400px;
+	height: 300px;
+	trans form: skew(10deg);
+	transform: scaleX(1.5) rotate(120deg);
+	transf orm-origin: bottom right;
+	margin-left: 70px;
+	transition-duration: 5s;
+}
+
+.r t:hover {
+	
+	transform: rotate(-250deg);
+}
+
+
+
+
+.b okr {
+	
+	     border: 4px solid green;
+	     width: 300;
+		 height: 300;
+	     background-color: #c0c;
+		
+		 anim ation-name: ff;
+	     animat ion-duration: 50s;
+		 transition-du ration: 2s;
+		 transition-tim ing-function: steps(5);
+}
+
+.bokr:ho ver {
+	
+	border: 4px solid yellow; 
+	transition-duration: 5s;
+}
+
+@k eyframes ff {
+	
+	    0% {
+		background-color: red;
+		}
+		
+		20% {
+		background-color: green;
+		
+		}
+		40% {
+		background-color: blue;
+		}
+		
+		60% {
+		background-color: yellow;
+		}
+	
+	
+}
+
+
+
+.bo kr:ho ver {
+	width: 800px;
+	background-color: red;
+	
+}
+.c oc { 
+
+    text-decoration: overline;
+
+
+}
+
+p sp an:ho ver {
+	font-size: 200%;
+	transition-duration: 3s;
+	border: 4px solid green; 
+	text-decoration: none;
+}
+	
+	
+	
+
+
+
+@ k ey fr ames gg{
+	
+	{
+		
+	}
+}
+
+.bl ock1{
+	
+	position: relative;
+	background-color: red;
+	width: 400px;
+	height: 300px;
+	z-index: 10;
+}
+
+.bl ock2 {
+	
+	position: fixed;
+	top: 30px;
+	background-color: green;
+	width: 700px;
+	height: 200px;
+	z-index: 20;
+}
+
+.bl ock3 {
+	
+	position: absolute;
+	left: 1px;
+	top: 800px;
+	background-color: #cc0;
+	width: 250px;
+	height: 250px;
+	z-index: 5;
+} 
+
+
+.bl ock4 {
+	float: right;
+	margin-right: 20px;
+	border: 2px solid #ccc;
+	width:  250px;
+	height: 250px;
+}
+
+.bl ock5 {
+	position: fixed;
+	top: 100px;
+	left: 500px;
+	margin-right: 20px;
+	float: right;
+	width: 250px;
+	height: 250px;
+	border: 2px solid #ccc;
+	z-index: 1000;
+}
+
+
+.bl ock6 {
+	flo at: right;
+	background-color: #c00;
+	position: absolute;
+	top: 1300px;
+	width: 250px;
+	height: 6000px;
+	border: 2px solid #ccc;
+	z-index: 10;
+}
+
+n av {
+	
+	
+	position: fixed;
+	top: -20px;
+	left: -39px;
+	z-index: 1000;
+}
+
+u l {
+	list-style: none;
+	font-size: 200%;
+	
+}
+
+u l l i {
+	
+	float: left;
+}
+
+u l l i a{
+	
+	background-color: green;
+	text-decoration: none;
+	margin-right: 2px;
+	padding: 10px 20px;
+	border: 2px solid yellow;
+}
+
+
+
+u l l i a:h over {
+	background-color: #cc0;
+	font-size: 200%;
+}

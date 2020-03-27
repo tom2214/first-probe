@@ -1,0 +1,57 @@
+
+body {
+	
+	}
+
+@font-face {
+	 
+	 font-family: badscript;
+	 src:  url("../fonts/BadScrip.woff") format("woff"), url("../fonts/Bad Script.woff2") format("woff2");
+	  
+}
+
+
+.pop {
+	
+	
+	transition-duration: 1s;
+	
+	}
+
+.pop:hover {
+	
+	box-s izing: border-box;
+	border: 2px solid green;
+}
+
+
+
+nav {
+	position: fixed;
+	right: 200px;
+	top: 200px;
+}
+
+ul li {
+	
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+	
+}
+
+ul li a {
+	
+	padding: 10px 20px;
+	border: 2px solid #c0c;
+}
+
+ a {
+	text-decoration: none;
+	}
+
+a:hover {
+	
+	background-color: red;
+	
+}
